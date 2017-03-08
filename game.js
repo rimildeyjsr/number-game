@@ -12,11 +12,11 @@ $(document).ready(function(){
             return;
         }
 
-        var no1, no2, no3;
+        var no1, no2, no3, max = 9, min = 1;
 
-        no1 = Math.ceil((Math.random()*10));
-        no2 = Math.ceil((Math.random()*10));
-        no3 = Math.ceil((Math.random()*10));
+        no1 = (Math.floor(Math.random()*(max-min+1)) + min);
+        no2 = (Math.floor(Math.random()*(max-min+1)) + min);
+        no3 = (Math.floor(Math.random()*(max-min+1)) + min);
 
         $('.randomNo').html(no1 + " "+ no2  + " " + no3 );
         $('.score').html(amount);
