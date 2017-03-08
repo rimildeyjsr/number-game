@@ -1,0 +1,27 @@
+html,
+body {
+    font-family: 'Roboto Mono',sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.updateAmount {
+    display: block;
+    margin: 0 auto;
+}
+
+.randomNo,
+.fillInfo,
+.score
+{
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
