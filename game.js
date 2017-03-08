@@ -8,7 +8,7 @@ $(document).ready(function(){
             //console.log("done");
             $('.randomNo').html("");
             $('.score').html("");
-            $('.fillInfo').html('GAME OVER!!');
+            $('.fillInfo').html('GAME OVER!! REFRESH TO PLAY AGAIN.');
             return;
         }
 
