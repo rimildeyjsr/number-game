@@ -12,7 +12,7 @@ $(document).ready(function(){
             return;
         }
 
-        var no1, no2, no3, max = 9, min = 1;
+        var no1, no2, no3, max = 9, min = 0;
 
         no1 = (Math.floor(Math.random()*(max-min+1)) + min);
         no2 = (Math.floor(Math.random()*(max-min+1)) + min);
@@ -89,5 +89,4 @@ function ifSequence(num1,num2,num3){
         return 0;
     }
 }
-
 
